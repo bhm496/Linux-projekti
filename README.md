@@ -7,11 +7,11 @@
 
  users.sls & init.sls ✔
   
- idempotenssitestaus
+ idempotenssitestaus ✔
   
  dokumentointi
  
- projektin tallennus GitHubiin
+ projektin tallennus GitHubiin ✔
  
  demokoneen luonti
  
