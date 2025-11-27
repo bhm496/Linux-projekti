@@ -3,9 +3,9 @@
 
  projektin aloittaminen ✔
 
- Saltin konfigurointi
+ Saltin konfigurointi ✔
 
- users.sls & init.sls
+ users.sls & init.sls ✔
   
  idempotenssitestaus
   
