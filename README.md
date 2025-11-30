@@ -34,7 +34,7 @@ Salt generoi jokaiselle automaattisesti:
 
 ---
 
-⚙️ init.sls – varsinainen tila
+### `init.sls` – varsinainen tila
 
 Salt generoi jokaiselle käyttäjälle:
 
@@ -86,9 +86,9 @@ Tämä todistaa, että infrastruktuuri voidaan toistaa turvallisesti.
 ---
 
 
-## 📸 Lopputulos (ruutukaappauksille varatut paikat)
+## Lopputulos
 
-- Screenshot 1: ensimmäinen Salt-ajo (changed > 0)
+- Screenshot 1: ensimmäinen Salt-ajo (changed 12)
 
 <img width="900" height="1042" alt="image" src="https://github.com/user-attachments/assets/5c73ce64-c871-4f72-8503-ca1b0cbbd37e" />
 
