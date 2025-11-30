@@ -27,7 +27,29 @@ Projektilla voidaan nopeasti rakentaa valmiita käyttäjätilejä esimerkiksi ke
 ## 📸 Lopputulos (ruutukaappauksille varatut paikat)
 
 - Screenshot 1: ensimmäinen Salt-ajo (changed > 0)
+
+<img width="1004" height="1042" alt="image" src="https://github.com/user-attachments/assets/5c73ce64-c871-4f72-8503-ca1b0cbbd37e" />
+
+<img width="419" height="1123" alt="image" src="https://github.com/user-attachments/assets/d3d5055b-4a6f-49c0-a77f-bb1c98adf8c1" />
+
+<img width="416" height="1129" alt="image" src="https://github.com/user-attachments/assets/609941d9-2efd-4992-834d-b8318e2878f1" />
+
+<img width="455" height="1120" alt="image" src="https://github.com/user-attachments/assets/b6de725e-f8bf-45db-964c-e8c76ce11755" />
+
+<img width="441" height="1031" alt="image" src="https://github.com/user-attachments/assets/296e6458-f334-447b-aa74-65a10a2886e6" />
+
+<img width="408" height="974" alt="image" src="https://github.com/user-attachments/assets/8089bd9d-56d5-4c5f-8f14-997941404262" />
+
+  
 - Screenshot 2: toinen Salt-ajo (changed = 0 / idempotentti)
+
+<img width="671" height="688" alt="image" src="https://github.com/user-attachments/assets/df5f1f09-9de0-4f58-952f-85145b59a0c8" />
+
+<img width="527" height="722" alt="image" src="https://github.com/user-attachments/assets/de973b36-09d2-4bd1-8a89-425bcc92a369" />
+
+<img width="512" height="386" alt="image" src="https://github.com/user-attachments/assets/5ce3ec5c-c008-4541-b396-f6839b188642" />
+
+  
 - Screenshot 3: /home-hakemisto, jossa näkyvät käyttäjät ja **projekti**-kansiot
 
 ---
