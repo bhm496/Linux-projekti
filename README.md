@@ -40,6 +40,7 @@ Projektilla voidaan nopeasti rakentaa valmiita käyttäjätilejä esimerkiksi ke
 
 <img width="408" height="974" alt="image" src="https://github.com/user-attachments/assets/8089bd9d-56d5-4c5f-8f14-997941404262" />
 
+
   
 - Screenshot 2: toinen Salt-ajo (changed = 0 / idempotentti)
 
@@ -49,8 +50,12 @@ Projektilla voidaan nopeasti rakentaa valmiita käyttäjätilejä esimerkiksi ke
 
 <img width="512" height="386" alt="image" src="https://github.com/user-attachments/assets/5ce3ec5c-c008-4541-b396-f6839b188642" />
 
+
   
 - Screenshot 3: /home-hakemisto, jossa näkyvät käyttäjät ja **projekti**-kansiot
+
+<img width="465" height="167" alt="image" src="https://github.com/user-attachments/assets/b67ffc70-ebad-4f3c-b6a7-e392d837fc8d" />
+
 
 ---
 
