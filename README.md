@@ -76,7 +76,7 @@ idempotentin lopputilan
 Projektin keskeinen idea on **idempotentti tila**:
 
 - **Ensimmäinen ajo:**  
-  luo käyttäjät ja niiden `projekti`-kansiot → Salt raportoi muutoksia (`changed > 0`)
+  luo käyttäjät ja niiden `projekti`-kansiot → Salt raportoi muutoksia (`changed 12`)
   
 - **Toinen ajo:**  
   mitään ei enää muuteta → Salt raportoi `changed = 0`
