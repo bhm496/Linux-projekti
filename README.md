@@ -8,7 +8,7 @@ Projektilla voidaan nopeasti rakentaa valmiita käyttäjätilejä.
 
 ```
 salt-mass-users/
- ├── top.sls                  # Määrittää, että user_ssh tila ajetaan
+ ├── top.sls                  # Määrittää, että user.present tila ajetaan
  └── user_ssh/
       ├── init.sls            # Varsinainen tila joka luo käyttäjät
       └── users.sls           # Lista käyttäjistä
@@ -25,13 +25,6 @@ users:
   - kalle
 ```
 
-Salt generoi jokaiselle automaattisesti:
-
-- käyttäjän (`user.present`)
-- kotihakemiston (`/home/<nimi>`)
-- kansion `/home/<nimi>/projekti`
-- oikeat omistajuudet ja käyttöoikeudet
-
 ---
 
 ### `init.sls` – varsinainen tila
@@ -44,9 +37,7 @@ kotihakemiston (/home/<user>)
 
 alikansion /home/<user>/projekti
 
-oikeat käyttöoikeudet
-
-idempotentin lopputilan
+oikeat käyttäjäoikeudet
 
 ```yaml
 
@@ -73,7 +64,7 @@ idempotentin lopputilan
 
 ## Idempotenssi
 
-Projektin keskeinen idea on **idempotentti tila**:
+Projektin idea on **idempotentti tila**:
 
 - **Ensimmäinen ajo:**  
   luo käyttäjät ja niiden `projekti`-kansiot → Salt raportoi muutoksia (`changed 12`)
@@ -81,7 +72,7 @@ Projektin keskeinen idea on **idempotentti tila**:
 - **Toinen ajo:**  
   mitään ei enää muuteta → Salt raportoi `changed = 0`
 
-Tämä todistaa, että infrastruktuuri voidaan toistaa turvallisesti.
+Tämä todistaa, että infrastruktuuri voidaan toistaa idempotentisti.
 
 ---
 
@@ -190,3 +181,16 @@ Toistettava ja turvallinen → **idempotentti tila**.
 ## 📄 Lisenssi
 
 Projekti on julkaistu GPL-3.0 -lisenssillä.
+
+---
+
+## Lähteet
+
+https://terokarvinen.com/2015/salt-state-with-multiple-sls-files/?fromSearch=salt
+https://terokarvinen.com/2018/04/03/apache-user-homepages-automatically-salt-package-file-service-example/?fromSearch=salt
+https://terokarvinen.com/2018/04/10/make-a-million-of-those-jinja-templating-salt-states/?fromSearch=salt
+https://docs.saltproject.io/en/latest/topics/jinja/index.html
+https://docs.saltproject.io/en/latest/ref/states/all/salt.states.file.html
+https://docs.saltproject.io/en/latest/ref/states/all/salt.states.user.html
+
+
