@@ -8,10 +8,10 @@ Projektilla voidaan nopeasti rakentaa valmiita käyttäjätilejä.
 
 ```
 salt-mass-users/
- ├── top.sls                  # Määrittää, että user.present tila ajetaan
+ ├── top.sls                  # Määrittää, mikä tila ajetaan
  └── user_ssh/
-      ├── init.sls            # Varsinainen tila joka luo käyttäjät
-      └── users.sls           # Lista käyttäjistä
+      ├── init.sls            # Varsinainen tila joka luo käyttäjät ja hakemistot
+      └── users.sls           # Lista käyttäjistä "yksi totuus"
 ```
 
 ### `users.sls` – käyttäjälista
